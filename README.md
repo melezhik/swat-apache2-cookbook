@@ -4,10 +4,20 @@
 
 # Check list
 
-* verify that `GET /` request succeeds
+* verify that landing page request (`GET /`)  succeeds
 * verify that apache footprint exists in server response
+* verify that given string exists at landing page
 
-# Sample Output
+# Swat settings 
+
+* landing_page_line - optional. verify that given string exists at landing page 
+
+Example:
+
+    landing_page_line="Hello World"
+
+
+# Sample output
 
     C:\Users\melezal1\projects\apache2>kitchen verify swat
     -----> Starting Kitchen (v1.4.2)
@@ -48,7 +58,7 @@
            Finished verifying <swat-centos-65> (0m5.95s).
     -----> Kitchen is finished. (0m10.46s)
     
-# AUTHOR
+# Author
 
 [Alexey Melezhik](mailto:melezhik@gmail.com)
 
