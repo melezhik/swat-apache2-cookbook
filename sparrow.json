@@ -1,5 +1,5 @@
 {
-    "version": "0.0.4",
+    "version": "0.0.6",
     "name" : "swat-apache2-cookbook",
     "description": "swat smoke tests for apache2 cookbook",
     "url" : "http://github.com/melezhik/swat-apache2-cookbook"
