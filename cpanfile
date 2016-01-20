@@ -1,1 +1,1 @@
-requires 'swat', '>= 0.1.76';
+requires 'swat', '>= 0.1.78';

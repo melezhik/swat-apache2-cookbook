@@ -8,7 +8,7 @@
 * verify that apache footprint exists in server response
 * verify that given string exists at landing page
 
-# Swat settings 
+# Environment variables
 
 * landing_page_line - optional. verify that given string exists at landing page 
 
